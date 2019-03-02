@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tuitions">
+
+    <Spinner
+        android:id="@+id/subjects"
+        android:layout_width="198dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:digits="0123456789"
+        android:ems="10"
+        android:hint="No.of Kids"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/timings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:hint="Timings"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/level"
+        android:layout_width="198dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/timings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <EditText
+        android:id="@+id/standard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="238dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Child Standard"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="295dp"
+        android:ems="10"
+        android:hint="Board Standard"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="369dp"
+        android:background="@color/colorPrimary"
+        android:text="Button"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1008729405153",
+    "firebase_url": "https://kiddie-cura.firebaseio.com",
+    "project_id": "kiddie-cura",
+    "storage_bucket": "kiddie-cura.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008729405153:android:0b0997c0327b6992",
+        "android_client_info": {
+          "package_name": "com.example.supraja_pc.kiddiecura"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008729405153-5c25044982rf8vq3tntn6a7nhfo4g1pq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvX_kkrqp208e77yAewxySiOqaq5i-slY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
