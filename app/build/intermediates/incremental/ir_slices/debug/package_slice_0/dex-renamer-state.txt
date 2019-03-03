@@ -1,0 +1,4 @@
+#Wed Feb 27 20:43:02 IST 2019
+base.0=C\:\\Users\\Supraja-PC\\AndroidStudioProjects\\KiddieCura\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
